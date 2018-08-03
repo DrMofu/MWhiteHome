@@ -19,4 +19,4 @@ def test():
 	return render_template('3Blue1Brown.html')	
 
 if __name__ == '__main__':
-	app.run(host='39.106.127.31',port=5000,debug=True)
+	app.run(host='39.106.127.31',port=80,debug=True)
