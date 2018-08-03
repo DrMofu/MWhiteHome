@@ -1,0 +1,60 @@
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	margin-top: 16px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.card-green{
+	background-color: #4CAF50;
+	color: white;
+}
+
+.card-orange{
+	background-color: #FAAE4E;
+	color: white;
+}
+
+.card-red{
+	background-color: #E93C07;
+	color: white;
+}
+
+.card-violet{
+	background-color: #9932CC;
+	color: white;
+}
+
+.card-blue{
+	background-color: #4876FF;
+	color: white;
+}
+
+.card-head-small{
+	padding: 70px 0px 60px 0px;
+	font-size: 40px;
+}
+
+.card-head-long{
+	/*padding: 110px 0px;*/
+	font-size: 90px;
+}
+
+.card-container {
+	/*padding: 10px;*/
+}
+.card-head-container {
+	padding: 20px 0px 10px 0px;
+}
+.video_box{
+	height: 500px;
+	margin-top: 2%;
+}
+
+.long_box{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	margin-top: 3%;
+	height: 30px;
+}

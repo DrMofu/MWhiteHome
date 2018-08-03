@@ -8,4 +8,15 @@ app.config.from_object(config)
 
 @app.route('/')
 def index():
-	return 'index'
+	return render_template('index.html')
+
+@app.route('/details/')
+def details():
+	return render_template('details.html')	
+
+@app.route('/test/')
+def test():
+	return render_template('3Blue1Brown.html')	
+
+if __name__ == '__main__':
+	app.run()
